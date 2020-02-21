@@ -4,7 +4,176 @@ This is where your custom styles begin.
 
 ==========================================================================  */
 
+/* Split the screen in half */
 
-.home {
+
+
+/* Split the screen in half */
+
+
+.baslik {
+    float: right;
     
 }
+
+
+
+.baslik:hover {
+  font-style: italic;
+
+}
+
+.title:hover {
+  font-style: italic;
+}
+
+
+.split {
+    
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    
+  }
+  /* Control the left side */
+  .left {
+    float: left;
+    padding-left: 20px;
+    font-family: 'Tomorrow', sans-serif;
+    color: white;
+    left: 0;
+    background: linear-gradient(60deg, #692f73, #9caaff, #fffefe);
+    background-size: 600% 600%;
+    -o-animation: LeftAnimation 9s ease infinite;
+    animation: LeftAnimation 9s ease infinite;
+    
+    
+  }
+  @-o-keyframes LeftAnimation {
+    0% {
+      background-position: 70% 0%;
+    }
+    50% {
+      background-position: 31% 100%;
+    }
+    100% {
+      background-position: 70% 0%;
+    }
+  }
+  @keyframes  LeftAnimation{
+    0% {
+      background-position: 70% 0%;
+    }
+    50% {
+      background-position: 31% 100%;
+    }
+    100% {
+      background-position: 70% 0%;
+    }
+  }
+
+
+  .right {
+    float: right; 
+    padding-right: 20px;
+    font-family: 'Tomorrow', sans-serif;
+    color: white;
+    right: 0;
+    background: linear-gradient(60deg, #2d2359, #ff8e8e, #fdfdff);
+    background-size: 600% 600%;
+    -o-animation: RightAnimation 15s ease infinite;
+    animation: RightAnimation 15s ease infinite;
+    
+    
+  }
+  @-o-keyframes RightAnimation {
+    0% {
+      background-position: 70% 0%;
+    }
+    50% {
+      background-position: 31% 100%;
+    }
+    100% {
+      background-position: 70% 0%;
+    }
+  }
+  @keyframes  RightAnimation{
+    0% {
+      background-position: 70% 0%;
+    }
+    50% {
+      background-position: 31% 100%;
+    }
+    100% {
+      background-position: 70% 0%;
+    }
+  }
+
+  
+
+
+  }
+  
+ .logo img {
+  z-index: 100;
+  position: fixed;
+  width: 200px;
+  display: block  
+  left: 50%;
+  transform: translate(-50%, -50%);
+ 
+  
+    -webkit-animation: spin1 5s infinite linear;
+    -moz-animation: spin1 5s infinite linear;
+    -o-animation: spin1 5s infinite linear;
+    -ms-animation: spin1 5s infinite linear;
+    animation: spin1 5s infinite linear;
+        display: block;
+    
+   
+ }
+
+  
+ @-webkit-keyframes spin1 {
+  0% { -webkit-transform: rotate(0deg);}
+  100% { -webkit-transform: rotate(360deg);}
+  }
+  @-moz-keyframes spin1 {
+  0% { -moz-transform: rotate(0deg);}
+  100% { -moz-transform: rotate(360deg);}
+  }
+  @-o-keyframes spin1 {
+  0% { -o-transform: rotate(0deg);}
+  100% { -o-transform: rotate(360deg);}
+  }
+  @-ms-keyframes spin1 {
+  0% { -ms-transform: rotate(0deg);}
+  100% { -ms-transform: rotate(360deg);}
+  }
+  @-keyframes spin1 {
+  0% { transform: rotate(0deg);}
+  100% { transform: rotate(360deg);}
+  } 
+
+  .statement img{
+
+    z-index: 100;
+    position: fixed;
+    width: 300px;
+    display: block;
+    margin-left: 510px;
+   
+    
+      -webkit-animation: spin1 5s infinite linear;
+      -moz-animation: spin1 5s infinite linear;
+      -o-animation: spin1 5s infinite linear;
+      -ms-animation: spin1 5s infinite linear;
+      animation: spin1 5s infinite linear;
+          display: block;
+      
+
+  }
