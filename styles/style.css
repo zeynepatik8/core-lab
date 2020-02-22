@@ -11,22 +11,93 @@ This is where your custom styles begin.
 /* Split the screen in half */
 
 
-.baslik {
-    float: right;
-    
-}
 
-
-
-.baslik:hover {
+.baslık:hover {
   font-style: italic;
-
 }
 
 .title:hover {
   font-style: italic;
 }
 
+.baslık {
+  padding-left: 550px;
+}
+
+.p1:hover{
+  text-shadow: 2px 2px;
+  font-style: normal;
+}
+.p2:hover{
+  text-shadow: 2px 2px; 
+  font-style: normal;
+}
+.p3:hover{
+  text-shadow: 2px 2px;
+  font-style: normal;
+}
+.o1:hover{
+  text-shadow: 2px 2px;
+  font-style: normal;
+}
+.o2:hover{
+  text-shadow: 2px 2px; 
+  font-style: normal;
+}
+.o3:hover{
+  text-shadow: 2px 2px;
+  font-style: normal;
+}
+.p1 {
+  text-decoration: underline; 
+  font-style: italic;
+  font-weight: lighter;
+  padding-left: 100px;
+ font-size: 30px;
+ margin-top: 150px;
+}
+.p2 {
+  text-decoration: underline;
+  font-style: italic;
+  font-weight: lighter;
+  padding-left: 100px;
+ font-size: 30px;
+ margin-top: 130px;
+
+
+}
+.p3 {
+  text-decoration: underline;
+  font-style: italic;
+  font-weight: lighter;
+  padding-left: 100px;
+ font-size: 30px;
+ margin-top: 130px;
+}
+.o1 {
+  text-decoration: underline;
+  font-style: italic;
+  font-weight: lighter;
+  padding-right: 200px;
+ font-size: 30px;
+ margin-top: 150px;
+}
+.o2 {
+  text-decoration: underline;
+  font-style: italic;
+  font-weight: lighter;
+  padding-right: 200px;
+ font-size: 30px;
+ margin-top: 130px;
+}
+.o3 {
+  text-decoration: underline;
+  font-style: italic;
+  font-weight: lighter;
+  padding-right: 200px;
+ font-size: 30px;
+ margin-top: 130px;
+}
 
 .split {
     
@@ -37,6 +108,7 @@ This is where your custom styles begin.
     top: 0;
     overflow-x: hidden;
     padding-top: 20px;
+
     
   }
   /* Control the left side */
@@ -78,6 +150,7 @@ This is where your custom styles begin.
 
 
   .right {
+    margin: auto;
     float: right; 
     padding-right: 20px;
     font-family: 'Tomorrow', sans-serif;
@@ -132,9 +205,7 @@ This is where your custom styles begin.
     -o-animation: spin1 5s infinite linear;
     -ms-animation: spin1 5s infinite linear;
     animation: spin1 5s infinite linear;
-        display: block;
-    
-   
+        display: block;  
  }
 
   
@@ -174,6 +245,5 @@ This is where your custom styles begin.
       -ms-animation: spin1 5s infinite linear;
       animation: spin1 5s infinite linear;
           display: block;
-      
 
   }
